@@ -112,7 +112,7 @@ $token = $accesstoken;
 		$voucher8 = getStr1('"title":"','",',$cekvoucher,"8");
 		$voucher9 = getStr1('"title":"','",',$cekvoucher,"9");
 		$voucher10 = getStr1('"title":"','",',$cekvoucher,"10");
-        echo "\n".color("nevy","Voucher ".$total." : ");
+        echo "\n".color("green","Voucher ".$total." : ");
         echo "\n".color("red","                     1. ".$voucher1);
         echo "\n".color("green","                     2. ".$voucher2);
         echo "\n".color("blue","                     3. ".$voucher3);
